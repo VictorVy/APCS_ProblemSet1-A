@@ -29,7 +29,7 @@ public class ProblemSet
     private static void quadratic()
     {
         //the polynomial is ax^2 + bx + c, where:
-        int a = 2, b = 8, c = 4;
+        int a = 1, b = 5, c = 6;
         
         //apply the quadratic formula to determine both roots
         double sol1 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a),
@@ -43,7 +43,7 @@ public class ProblemSet
     private static void slope()
     {
         //the two points are (x1, y1) and (x2, y2), where:
-        int x1 = 0, y1 = 19, x2 = 4, y2 = 42;
+        int x1 = 0, y1 = 0, x2 = 2, y2 = 3;
         
         //apply slope formula to determine the slope
         double m = (double)(y2 - y1) / (x2 - x1);
@@ -56,7 +56,7 @@ public class ProblemSet
     private static void midpoint()
     {
         //the two points are (x1, y1) and (x2, y2), where:
-        int x1 = 0, y1 = 19, x2 = 4, y2 = 42;
+        int x1 = 0, y1 = 0, x2 = 2, y2 = 3;
         
         //apply midpoint formula to determine the midpoint (x, y)
         double x = (x1 + x2) / 2.0, y = (y1 + y2) / 2.0;
@@ -71,7 +71,7 @@ public class ProblemSet
         //                         k
         //the arithmetic series is Σ(a + d * (n - 1)), where:
         //                        n=1
-        int k = 5, a = 19, d = 4;
+        int k = 5, a = 1, d = 1;
         
         //apply the arithmetic series formula to determine the sum
         double sum = k / 2.0 * (2 * a + (k - 1) * d);
@@ -87,7 +87,7 @@ public class ProblemSet
         //                        k
         //the geometric series is Σ(g * r^(n - 1)), where:
         //                       n=1
-        int k = 3, g = 19, r = 4;
+        int k = 3, g = 3, r = 2;
         
         //apply the geometric series formula to determine the sum
         double sum = g * (Math.pow(r, k) - 1) / (r - 1);
